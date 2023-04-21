@@ -34,7 +34,7 @@ class _Quiz extends State<Quiz> {
       title: "Flutter Quiz App",
       theme: ThemeData(primarySwatch: Colors.green),
       home: Scaffold(
-        // appBar: AppBar(title: const Text("Flutter Quiz")),
+        appBar: AppBar(title: const Text("Flutter Quiz")),
         body: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(colors: [
